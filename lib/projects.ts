@@ -10,21 +10,22 @@ export type Project = {
   images: { src: string; alt: string }[]
 }
 
-// Placeholder URLs are centralized here for easy replacement with /images/projects/... assets.
+// Uploaded project imagery is organized by project for straightforward future replacement.
 export const projects: Project[] = [
   {
-    slug: 'cedar-house', title: 'Cedar House', category: 'Residential', location: 'Hudson Valley, NY', year: '2024', scope: 'Full renovation',
+    slug: 'cedar-house', title: 'Cedar House', category: 'Residential', location: 'Abuja, Nigeria', year: '2024', scope: 'Full renovation',
     description: 'A quiet country retreat shaped by warm timber, honest materials, and the changing light of the valley.',
     process: 'We worked from the existing structure outward, preserving original beams and letting each new intervention feel inevitable.',
     images: [
-      { src: 'https://placehold.co/1600x1100/d8d0c5/393832?text=Cedar+House+01', alt: 'Placeholder for Cedar House living room' },
-      { src: 'https://placehold.co/1200x1500/c2b8aa/393832?text=Cedar+House+02', alt: 'Placeholder for Cedar House kitchen' },
-      { src: 'https://placehold.co/1600x1100/b4aa9e/393832?text=Cedar+House+03', alt: 'Placeholder for Cedar House dining area' },
-      { src: 'https://placehold.co/1200x1500/cbc1b5/393832?text=Cedar+House+04', alt: 'Placeholder for Cedar House bedroom' },
+      { src: '/images/hero-living-room.png', alt: 'Warm Abuja living room with natural light, cream seating, and a dining area' }, // cedar-house-01 / hero-living-room.jpg
+      { src: '/images/projects/cedar-house/cedar-house-02.png', alt: 'Calm bedroom with linen bedding, woven pendant, and sheer curtains' }, // cedar-house-02.jpg
+      { src: '/images/projects/cedar-house/cedar-house-03.png', alt: 'Contemporary kitchen with walnut cabinetry, marble island, and pendant lights' }, // cedar-house-03.jpg
+      { src: '/images/projects/cedar-house/cedar-house-04.png', alt: 'Refined living room with sectional sofa, wood slats, and layered lighting' }, // cedar-house-04.jpg
+      { src: '/images/projects/cedar-house/cedar-house-05.png', alt: 'Close detail of textured upholstery, timber side table, and ceramic vessel' }, // cedar-house-05.jpg
     ],
   },
   {
-    slug: 'elm-street', title: 'Elm Street', category: 'Residential', location: 'Brooklyn, NY', year: '2023', scope: 'Interior architecture',
+    slug: 'elm-street', title: 'Elm Street', category: 'Residential', location: 'Abuja, Nigeria', year: '2023', scope: 'Interior architecture',
     description: 'An apartment renovation balancing precise detailing with the ease of everyday family life.',
     process: 'A restrained palette creates a continuous visual rhythm, while bespoke storage makes room for the life held within it.',
     images: [
@@ -35,7 +36,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: 'northline-studio', title: 'Northline Studio', category: 'Commercial', location: 'Manhattan, NY', year: '2022', scope: 'Workplace interiors',
+    slug: 'northline-studio', title: 'Northline Studio', category: 'Commercial', location: 'Abuja, Nigeria', year: '2022', scope: 'Workplace interiors',
     description: 'A light-filled studio for a growing creative practice, designed to support focus, exchange, and pause.',
     process: 'The plan is organized around a central workroom, with quieter rooms and informal meeting spaces unfolding around it.',
     images: [
@@ -46,7 +47,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    slug: 'marsh-cottage', title: 'Marsh Cottage', category: 'Residential', location: 'Martha’s Vineyard, MA', year: '2021', scope: 'Furnishing & styling',
+    slug: 'marsh-cottage', title: 'Marsh Cottage', category: 'Residential', location: 'Abuja, Nigeria', year: '2021', scope: 'Furnishing & styling',
     description: 'A small coastal house with a soft, sun-washed palette and a deep respect for its elemental setting.',
     images: [
       { src: 'https://placehold.co/1600x1100/d6d0c7/393832?text=Marsh+Cottage+01', alt: 'Placeholder for Marsh Cottage exterior' },
@@ -64,5 +65,5 @@ export const getProject = (slug: string) => projects.find((project) => project.s
 // Example: /public/images/projects/cedar-house/cedar-house-01.jpg
 export const assetNotes = ['hero-living-room.jpg', 'designer-portrait.jpg', ...projects.map((p) => `${p.slug}/${p.slug}-01.jpg`)]
 
-export const placeholderHero = 'https://placehold.co/2000x1300/b9b1a5/393832?text=Hero+Living+Room'
+export const placeholderHero = '/images/hero-living-room.png'
 export const placeholderPortrait = 'https://placehold.co/900x1100/c7c0b7/393832?text=Designer+Portrait'
