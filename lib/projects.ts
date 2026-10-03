@@ -63,7 +63,7 @@ export const getProject = (slug: string) => projects.find((project) => project.s
 
 // Future asset structure: /public/images/projects/<slug>/<slug>-01.jpg
 // Example: /public/images/projects/cedar-house/cedar-house-01.jpg
-export const assetNotes = ['hero-living-room.jpg', 'designer-portrait.jpg', ...projects.map((p) => `${p.slug}/${p.slug}-01.jpg`)]
+export const assetNotes = ['abuja-glow-living-room.png', 'designer-portrait.jpg', ...projects.map((p) => `${p.slug}/${p.slug}-01.jpg`)]
 
 export const placeholderHero = '/images/abuja-glow-living-room.png'
-export const placeholderPortrait = 'https://placehold.co/900x1100/c7c0b7/393832?text=Designer+Portrait'
+export const placeholderPortrait = '/images/designer-portrait.jpg'
