@@ -21,7 +21,7 @@ export const projects: Project[] = [
       { src: '/images/projects/cedar-house/linen-haven-bedroom.png', alt: 'Linen Haven: a quiet bedroom retreat where woven warmth meets restful sleep' }, // cedar-house-02.jpg
       { src: '/images/projects/cedar-house/marble-marvel-kitchen.png', alt: 'Marble Marvel: a walnut kitchen where Abuja flavour meets functional glamour' }, // cedar-house-03.jpg
       { src: '/images/projects/cedar-house/wood-mood-lounge.png', alt: 'Wood Mood: a refined lounge where timber rhythm meets a gentle Abuja bloom' }, // cedar-house-04.jpg
-      { src: '/images/projects/cedar-house/cedar-house-05.png', alt: 'Texture Flexure: tactile upholstery and timber detail, made for comfort and pleasure' }, // cedar-house-05.jpg
+      { src: '/images/projects/cedar-house/texture-flexure-detail.png', alt: 'Texture Flexure: tactile upholstery and timber detail, made for comfort and pleasure' }, // cedar-house-05.jpg
     ],
   },
   {
@@ -30,9 +30,9 @@ export const projects: Project[] = [
     process: 'A restrained palette creates a continuous visual rhythm, while bespoke storage makes room for the life held within it.',
     images: [
       { src: '/images/projects/cedar-house/linen-haven-bedroom.png', alt: 'Linen Haven: a quiet bedroom retreat where woven warmth meets restful sleep' }, // elm-street-01.jpg
-      { src: 'https://placehold.co/1200x1500/bdb4aa/393832?text=Elm+Street+02', alt: 'Placeholder for Elm Street hallway' },
-      { src: 'https://placehold.co/1600x1100/d7d0c8/393832?text=Elm+Street+03', alt: 'Placeholder for Elm Street kitchen' },
-      { src: 'https://placehold.co/1200x1500/c0b7ad/393832?text=Elm+Street+04', alt: 'Placeholder for Elm Street study' },
+      { src: '/images/projects/elm-street/elm-street-hallway.png', alt: 'Hallway hush: a warm Abuja passage where timber and art find their rhythm.' },
+      { src: '/images/projects/elm-street/elm-street-kitchen.png', alt: 'Kitchen cadence: walnut, pale stone, and Nigerian daylight in balance.' },
+      { src: '/images/projects/elm-street/elm-street-study.png', alt: 'Study story: a quiet workroom shaped for focus, thought, and gentle flow.' },
     ],
   },
   {
@@ -41,9 +41,9 @@ export const projects: Project[] = [
     process: 'The plan is organized around a central workroom, with quieter rooms and informal meeting spaces unfolding around it.',
     images: [
       { src: '/images/projects/northline-studio/kar-aura-reception.png', alt: 'Marble Marvel: a walnut kitchen where Abuja flavour meets functional glamour' }, // northline-studio-01.jpg
-      { src: 'https://placehold.co/1200x1500/d2ccc3/393832?text=Northline+Studio+02', alt: 'Placeholder for Northline Studio meeting room' },
-      { src: 'https://placehold.co/1600x1100/c7c1b9/393832?text=Northline+Studio+03', alt: 'Placeholder for Northline Studio library' },
-      { src: 'https://placehold.co/1200x1500/aca9a2/393832?text=Northline+Studio+04', alt: 'Placeholder for Northline Studio detail' },
+      { src: '/images/projects/northline-studio/northline-meeting-room.png', alt: 'Meeting ground: a warm Abuja room where ideas gather around timber.' },
+      { src: '/images/projects/northline-studio/northline-library.png', alt: 'Library light: art, books, and greenery giving the studio room to grow.' },
+      { src: '/images/projects/northline-studio/northline-material-detail.png', alt: 'Material language: brass, weave, wood, and craft in close conversation.' },
     ],
   },
   {
@@ -51,9 +51,9 @@ export const projects: Project[] = [
     description: 'A sun-washed Abuja retreat where tactile layers gather softly, creating a warm and welcoming story.',
     images: [
       { src: '/images/projects/marsh-cottage/wood-mood-lounge.png', alt: 'Refined Abuja living room with sectional sofa, wood slats, and layered lighting' }, // marsh-cottage-01.jpg
-      { src: 'https://placehold.co/1200x1500/c9c1b5/393832?text=Marsh+Cottage+02', alt: 'Placeholder for Marsh Cottage living room' },
-      { src: 'https://placehold.co/1600x1100/beb7ab/393832?text=Marsh+Cottage+03', alt: 'Placeholder for Marsh Cottage bedroom' },
-      { src: 'https://placehold.co/1200x1500/ded8d0/393832?text=Marsh+Cottage+04', alt: 'Placeholder for Marsh Cottage kitchen' },
+      { src: '/images/projects/marsh-cottage/marsh-cottage-living-room.png', alt: 'Living softly: a sun-washed Abuja room made for welcome and ease.' },
+      { src: '/images/projects/marsh-cottage/marsh-cottage-bedroom.png', alt: 'Bedroom breeze: linen, timber, and quiet light settling into rest.' },
+      { src: '/images/projects/marsh-cottage/marsh-cottage-kitchen.png', alt: 'Kitchen warmth: stone, timber, and handmade Nigerian details in harmony.' },
     ],
   },
 ]
